@@ -1,0 +1,110 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+@media  screen and (max-width: 768px) {
+    header{
+        font-size: 4vw;
+    } 
+}
+/*navigation bar*/
+nav{
+    background-color: #333;
+    text-align: center;
+    padding: 30px 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 2em;
+    
+}
+nav a:hover{
+    background-color: rgba(0, 255, 81, 0.416);
+}
+@media  screen and (max-width: 365px) {
+    nav a{
+    margin: 4px;
+    
+}
+    
+}
+
+@media  screen and (min-width: 370px) and (max-width: 650px){
+    nav a{
+    margin: 10px;
+    
+}
+ 
+}
+/*selection main content*/
+
+
+.content{
+    max-width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.main{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.content{
+    max-width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+@media  screen and (max-width: 391px) {
+    .responsive{
+        margin: -7px;
+        font-size: 14px;
+    }
+    
+}
+
+@media  screen and (min-width: 391px) and (max-width: 530px){
+    .responsive{
+        margin: 1px;
+        font-size: 16px;
+    }
+    
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
